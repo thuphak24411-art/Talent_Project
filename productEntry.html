@@ -1,0 +1,169 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Product Information Entry</title>
+    <script src="js/app.js"></script>
+
+    <link rel="stylesheet" href="..//css/productEntry.css">
+    <link rel="stylesheet" href="..//css/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-top">
+            <div class="menu">
+                <i class="fas fa-bars"></i>
+            </div>
+
+            <div class="filter-icons">
+                <i class="fas fa-filter"></i>
+            </div>
+
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <div class="logo">
+                GREEN THREAD
+            </div>
+
+            <div class="search-section">
+                <div class="search-bar">
+                    <input type="text" placeholder="Searching for products...">
+                    <button class="search-btn"><i class="fas fa-search"></i></button>
+                </div>
+                <i class="fas fa-shopping-cart cart-icon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Product Information Entry</h2>
+
+        <div class="dashboard">
+
+            <!-- LEFT COLUMN -->
+            <div class="column">
+
+                <div class="card">
+                    <h2>Product Images</h2>
+
+                    <div class="media-section">
+                        <div class="upload-grid" id="uploadGrid">
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(0)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(1)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(2)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(3)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(4)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(5)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(6)">Upload</button>
+                            <button type="button" class="upload-btn" onclick="triggerFileInput(7)">Upload</button>
+                        </div>
+                        
+                        <!-- Hidden file inputs -->
+                        <input type="file" id="fileInput0" accept="image/*" style="display:none;" onchange="handleImageUpload(0)">
+                        <input type="file" id="fileInput1" accept="image/*" style="display:none;" onchange="handleImageUpload(1)">
+                        <input type="file" id="fileInput2" accept="image/*" style="display:none;" onchange="handleImageUpload(2)">
+                        <input type="file" id="fileInput3" accept="image/*" style="display:none;" onchange="handleImageUpload(3)">
+                        <input type="file" id="fileInput4" accept="image/*" style="display:none;" onchange="handleImageUpload(4)">
+                        <input type="file" id="fileInput5" accept="image/*" style="display:none;" onchange="handleImageUpload(5)">
+                        <input type="file" id="fileInput6" accept="image/*" style="display:none;" onchange="handleImageUpload(6)">
+                        <input type="file" id="fileInput7" accept="image/*" style="display:none;" onchange="handleImageUpload(7)">
+
+                    </div>
+                </div>
+
+                <div class="card">
+                    <h2>Basic Product Information</h2>
+
+                    <label>Product Name</label>
+                    <input type="text" placeholder="Enter product name" required>
+
+                    <label>Category</label>
+                    <select required>
+                        <option value="">Select a category</option>
+                        <option>Recycled Material</option>
+                        <option>Organic</option>
+                        <option>Low Carbon</option>
+                        <option>Circular</option>
+                    </select>
+
+                    <label>Description</label>
+                    <textarea placeholder="Enter a brief description of the product" rows="12" cols="100" style="padding: 10px;" required></textarea>
+                </div>
+
+            </div>
+
+            <!-- RIGHT COLUMN -->
+            <div class="column">
+
+                <div class="card">
+                    <h2>Main Information</h2>
+                    <label>Product Details</label>
+                    <div id="colorStockMatrix" class="color-stock-matrix" style="display:none; margin-top:20px;">
+                        <h3>Color, Price & Stock by Size</h3>
+                        <div id="matrixContent"></div>
+                    </div>
+
+                    <div id="colorPriceList" class="color-price-list">
+                        <div class="color-price-item">
+                            <input type="text" placeholder="Size" class="color-size" required>
+                            <input type="text" placeholder="Color" class="color-name" required>
+                            <input type="number" placeholder="Price ($)" class="color-price" min="0" step="0.01" required>
+                            <input type="number" placeholder="Stock" class="color-stock" min="0" required>
+                            <button type="button" class="remove-color-btn" onclick="removeDetails(this)">Remove</button>
+                        </div>
+                    </div>
+                    
+                    <button type="button" class="add-color-btn" onclick="addDetails()">+ Add</button>
+                    <label>Origin</label>
+                    <select>
+                        <option>Thailand</option>
+                        <option>Vietnam</option>
+                        <option>Indonesia</option>
+                        <option>China</option>
+                    </select>
+
+                </div>
+
+                <div class="card">
+                    <h2>Material & Sustainability Profile</h2>
+
+                    <label>Base Material</label>
+                    <input type="text" placeholder="Enter Base Material" required>
+
+                    <label>Recycled Ratio (%)</label>
+                    <input type="number" placeholder="Enter Recycled ratio" min="0" max="100" required>
+
+                    <label>QR Blockchain</label>
+                    <input type="text" placeholder="Enter QR Blockchain Link" required>
+
+                </div>
+
+                <div class="card">
+                    <h2>Carbon & Certification</h2>
+
+                    <label>Est. Carbon Footprint</label>
+                    <input type="number" placeholder="Enter Carbon Footprint" required>
+
+                    <label>ESG Certification</label>
+                    <input type="text" placeholder="Enter ESG Certification Name" required>
+
+                    <button class="green-btn">
+                        Generate Blockchain Traceability Hash
+                    </button>
+                </div>
+        </div>
+        <div class="action-buttons">
+            <button class="publish" onclick="saveProduct()">Save & Publish</button>
+        </div>
+
+    </div>
+
+    </script>
+
+</body>
+</html>

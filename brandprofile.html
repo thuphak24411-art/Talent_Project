@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Brand Dashboard</title>
+        <link rel="stylesheet" href="css/admin.css">
+        <link rel="stylesheet" href="css/brand_recycler.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="card">
+                <div class="info-box">
+                    <h2 style="margin:0;">Thông tin thương hiệu</h2>
+                    <button type="button" class="btn-logout" onclick="logoutUser()">Log out</button>
+                </div>
+                <p><strong>Brand Name:</strong> <span id="brandName"></span></p>
+                <p><strong>Email:</strong> <span id="brandEmail"></span></p>
+                <p><strong>Phone:</strong> <span id="brandPhone"></span></p>
+                <p><strong>Address:</strong> <span id="brandAddress"></span></p>
+            </div>
+
+            <div class="card">
+                <h2>Dashboard bán hàng</h2>
+                <div class="grid-4">
+
+                    <div class="stat-box">
+                        <h3 id="totalOrders">0</h3>
+                        <p>Tổng đơn bán</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 id="totalProduct">0</h3>
+                        <p>Tổng sản phẩm bán</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 id="totalReturns">0</h3>
+                        <p>Tổng đơn hoàn trả</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 id="totalRevenue">0 VNĐ</h3>
+                        <p>Tổng doanh thu</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ESG Dashboard -->
+            <div class="card">
+
+                <h2>Dashboard ESG</h2>
+
+                <div class="esg-grid">
+
+                    <div class="stat-box">
+                        <h3 id="greenScore">0</h3>
+                        <p>Green Score</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 id="recyclingRate">0%</h3>
+                        <p>Recycling Rate</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h3 id="co2Emission">0 kg</h3>
+                        <p>CO₂ Emission</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Product List -->
+            <div class="card">
+
+                <div class="product-header">
+
+                    <h2>Danh sách sản phẩm</h2>
+
+                    <button
+                        class="btn btn-add"
+                        onclick="window.location.href='productEntry.html'">
+                        + Thêm sản phẩm
+                    </button>
+
+                </div>
+
+                <table>
+
+                    <thead>
+                        <tr>
+                            <th>Product ID</th>
+                            <th>Product Name</th>
+                            <th>Size</th>
+                            <th>Color</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+
+                    <tbody id="productTable">
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+        <script src="js/load_data.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+
+        const currentUser =
+            JSON.parse(
+                sessionStorage.getItem('currentUser') || 'null'
+            );
+
+        if(currentUser){
+
+            document.getElementById('brandName').textContent =
+                currentUser.fullname || '';
+
+            document.getElementById('brandEmail').textContent =
+                currentUser.email || '';
+
+            document.getElementById('brandPhone').textContent =
+                currentUser.phone || '';
+
+            document.getElementById('brandAddress').textContent =
+                currentUser.address || '';
+        }
+
+        productTable = document.getElementById('productTable');
+        dataset_path="datasets/products.json"
+        if(productTable){
+            load_product(dataset_path, productTable);
+        }
+
+        </script>
+
+    </body>
+</html>

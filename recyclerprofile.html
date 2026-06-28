@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recycler Dashboard</title>
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/brand_recycler.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Recycler Information -->
+    <div class="card">
+
+        <div class="info-box">
+            <h2>Recycler Information</h2>
+            <button type="button" class="btn-logout" onclick="logoutUser()">Log out</button>
+        </div>
+
+        <p>
+            <strong>Recycler Name:</strong>
+            <span id="recyclerName"></span>
+        </p>
+
+        <p>
+            <strong>Email:</strong>
+            <span id="recyclerEmail"></span>
+        </p>
+
+        <p>
+            <strong>Phone:</strong>
+            <span id="recyclerPhone"></span>
+        </p>
+
+        <p>
+            <strong>Address:</strong>
+            <span id="recyclerAddress">
+            </span>
+        </p>
+
+    </div>
+
+    <!-- Recycling Dashboard -->
+    <div class="card">
+
+        <h2>Recycling Dashboard</h2>
+
+        <div class="grid-4">
+
+            <div class="stat-box">
+                <h3 id="totalRecycled">0</h3>
+                <p>Total Recycled (kg)</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="totalOrders">0</h3>
+                <p>Total Recycling Orders</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="totalRevenue">0</h3>
+                <p>Total Revenue</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="greenCoin">0</h3>
+                <p>Green Coin</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- ESG Dashboard -->
+    <div class="card">
+
+        <h2>ESG Dashboard</h2>
+
+        <div class="esg-grid">
+
+            <div class="stat-box">
+                <h3 id="recyclingRate">0%</h3>
+                <p>Recycling Rate</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="co2Saved">0%</h3>
+                <p>CO₂ Saved</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="circularScore">0</h3>
+                <p>Circular Score</p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Recycling Orders -->
+    <div class="card">
+
+        <h2>Recycling Orders</h2>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>Order ID</th>
+                    <th>Product ID</th>
+                    <th>Product Name</th>
+                    <th>Quantity (kg)</th>
+                    <th>Order Date</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody id="recyclingOrders">
+
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>
+<script src="js/load_data.js"></script>
+<script src="js/app.js"></script>
+<script>
+
+const currentUser =
+    JSON.parse(
+        sessionStorage.getItem('currentUser') || 'null'
+    );
+
+if(currentUser){
+
+    document.getElementById('recyclerName').textContent =
+        currentUser.fullname || '';
+
+    document.getElementById('recyclerEmail').textContent =
+        currentUser.email || '';
+
+    document.getElementById('recyclerPhone').textContent =
+        currentUser.phone || '';
+
+    document.getElementById('recyclerAddress').textContent =
+        currentUser.address || '';
+}
+
+recyclingOrders = document.getElementById('recyclingOrders');
+dataset_path="datasets/recyclingOrders.json"
+if(recyclingOrders){
+    load_recycling_orders(dataset_path, recyclingOrders);
+}
+
+</script>
+
+</body>
+</html>

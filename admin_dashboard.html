@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body onload="load_user()">
+
+<div class="container">
+
+    <header class="admin-header">
+        <div>
+            <h1 id="adminWelcome">ADMIN DASHBOARD</h1>
+        </div>
+        <div class="admin-meta">
+            <p><strong>Admin ID:</strong> <span id="adminIdValue">-</span></p>
+            <p><strong>Email:</strong> <span id="adminEmailValue">-</span></p>
+            <button id="adminLogoutButton" class="btn-logout">Log out</button>
+        </div>
+    </header>
+
+    <section class="card">
+
+        <h2>Quản lý người dùng</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h3 id="customerCount">0</h3>
+                <p>Customers</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="brandCount">0</h3>
+                <p>Brands</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="recyclerCount">0</h3>
+                <p>Recyclers</p>
+            </div>
+
+        </div>
+
+        <table>
+
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Full Name</th>
+                    <th>User Name</th>
+                    <th>Email</th>
+                    <th>Thao tác</th>
+                </tr>
+            </thead>
+
+            <tbody id="userTable">
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- BLOCKCHAIN -->
+
+    <section class="card">
+
+        <h2>Quản lý Blockchain Records</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>Block ID</th>
+                    <th>Timestamp</th>
+                    <th>Hash</th>
+                    <th>Created By</th>
+                    <th>Status</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="blockTable">
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- SYSTEM ANALYTICS -->
+
+    <section class="card">
+
+        <h2>Thống kê hệ thống</h2>
+
+        <div class="stats-grid">
+            <div class="stat-box">
+                <h3 id="totalProducts">0</h3>
+                <p>Tổng sản phẩm</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="totalOrders">0</h3>
+                <p>Tổng đơn hàng</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="co2Reduced">0 kg</h3>
+                <p>CO₂ giảm được</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TOKEN MANAGEMENT -->
+
+    <section class="card">
+
+        <h2>Quản lý Green Point</h2>
+
+        <div class="stats-grid">
+
+            <div class="stat-box">
+                <h3 id="issuedToken">0</h3>
+                <p>Green Point phát hành</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="usedToken">0</h3>
+                <p>Green Point đã sử dụng</p>
+            </div>
+
+            <div class="stat-box">
+                <h3 id="circulatingToken">0</h3>
+                <p>Green Point lưu hành</p>
+            </div>
+
+        </div>
+    </section>
+
+</div>
+<script src="js/app.js"></script>
+<script src="js/load_data.js"></script>
+<script>
+    dataset_path="datasets/users.json"
+    userTable=document.getElementById("userTable")
+    load_user(dataset_path, userTable)
+</script>
+</body>
+</html>
