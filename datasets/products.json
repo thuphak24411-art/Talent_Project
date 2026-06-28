@@ -1,0 +1,1526 @@
+[
+  {
+    "CateID": "C1",
+    "CateName": "Recycled Material",
+    "products": [
+      {
+        "productID": "PR000001",
+        "productName": "Denim Jacket",
+        "image": null,
+        "material": "Recycled Polyester",
+        "origin": "Thailand",
+        "brandID": "BR000001",
+        "certification": "OEKO-TEX",
+        "carbonFootprint": 14.85,
+        "recycled_ratio": 79,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD001",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "29.9",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "29.9",
+            "stock": 47
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "29.9",
+            "stock": 40
+          },
+          {
+            "size": "XL",
+            "color": "Green",
+            "price": "32",
+            "stock": 23
+          },
+          {
+            "size": "XXL",
+            "color": "Blue",
+            "price": "35",
+            "stock": 54
+          }
+        ]
+      },
+      {
+        "productID": "PR000005",
+        "productName": "Denim Tote Bag",
+        "image": null,
+        "material": "Recycled Denim",
+        "origin": "Vietnam",
+        "brandID": "BR000002",
+        "certification": "Bluesign",
+        "carbonFootprint": 10.95,
+        "recycled_ratio": 89,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD005",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "137",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "137",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Green",
+            "price": "137",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000009",
+        "productName": "Canvas Sneakers",
+        "image": null,
+        "material": "Recycled Canvas",
+        "origin": "China",
+        "brandID": "BR000002",
+        "certification": "Fair Trade",
+        "carbonFootprint": 9.97,
+        "recycled_ratio": 49,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD009",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "146",
+            "stock": 115
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "146",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000013",
+        "productName": "Bomber Jacket",
+        "image": null,
+        "material": "Recycled PET (RPET) Fabric",
+        "origin": "Thailand",
+        "brandID": "BR000001",
+        "certification": "Bluesign",
+        "carbonFootprint": 5.97,
+        "recycled_ratio": 50,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD013",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "57",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "57",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000015",
+        "productName": "Utility Vest",
+        "image": null,
+        "material": "Recycled Nylon",
+        "origin": "Indonesia",
+        "brandID": "BR000003",
+        "certification": "Bluesign",
+        "carbonFootprint": 17.24,
+        "recycled_ratio": 42,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD015",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "45",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "45",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "45",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000019",
+        "productName": "Streetwear Backpack",
+        "image": null,
+        "material": "Recycled PET (RPET) Fabric",
+        "origin": "Indonesia",
+        "brandID": "BR000004",
+        "certification": "Fair Trade",
+        "carbonFootprint": 3.56,
+        "recycled_ratio": 30,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD019",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "299",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "299",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "299",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000023",
+        "productName": "Hoodie",
+        "image": null,
+        "material": "Recycled Cotton",
+        "origin": "Vietnam",
+        "brandID": "BR000006",
+        "certification": "OEKO-TEX",
+        "carbonFootprint": 3.24,
+        "recycled_ratio": 86,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD023",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "89",
+            "stock": 8
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "89",
+            "stock": 86
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "89",
+            "stock": 64
+          },
+          {
+            "size": "XL",
+            "color": "Yellow",
+            "price": "139",
+            "stock": 89
+          }
+        ]
+      },
+      {
+        "productID": "PR000028",
+        "productName": "Cargo Pants",
+        "image": null,
+        "material": "Recycled Polyester",
+        "origin": "Indonesia",
+        "brandID": "BR000002",
+        "certification": "GOTS",
+        "carbonFootprint": 18.39,
+        "recycled_ratio": 36,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD028",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "299",
+            "stock": 115
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "299",
+            "stock": 22
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "299",
+            "stock": 78
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "309",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "309",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000031",
+        "productName": "Sportswear",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "Thailand",
+        "brandID": "BR000005",
+        "certification": "GOTS",
+        "carbonFootprint": 6.56,
+        "recycled_ratio": 31,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD031",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "109",
+            "stock": 299
+          },
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "119",
+            "stock": 0
+          },
+          {
+            "size": "XXL",
+            "color": "Black",
+            "price": "129",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000035",
+        "productName": "Cotton T-Shirt",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "Thailand",
+        "brandID": "BR000003",
+        "certification": "Bluesign",
+        "carbonFootprint": 18.92,
+        "recycled_ratio": 61,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD035",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "12",
+            "stock": 129
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "12",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "12",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000039",
+        "productName": "Polo",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "China",
+        "brandID": "BR000008",
+        "certification": "Bluesign",
+        "carbonFootprint": 18,
+        "recycled_ratio": 30,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD039",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "109",
+            "stock": 109
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Pink",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Blue",
+            "price": "129",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000040",
+        "productName": "Linen Shirt",
+        "image": null,
+        "material": "Organic Linen",
+        "origin": "Thailand",
+        "brandID": "BR000008",
+        "certification": "Bluesign",
+        "carbonFootprint": 11.92,
+        "recycled_ratio": 29,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD040",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "129",
+            "stock": 129
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "129",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "129",
+            "stock": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CateID": "C2",
+    "CateName": "Organic",
+    "products": [
+      {
+        "productID": "PR000002",
+        "productName": "Classic Sweater",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "Indonesia",
+        "brandID": "BR000007",
+        "certification": "GRS",
+        "carbonFootprint": 6.34,
+        "recycled_ratio": 97,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD002",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "29.9",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "29.9",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "29.9",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000006",
+        "productName": "Denim Jacket",
+        "image": null,
+        "material": "Organic Denim",
+        "origin": "Vietnam",
+        "brandID": "BR000004",
+        "certification": "GRS",
+        "carbonFootprint": 2.79,
+        "recycled_ratio": 98,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD006",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "299",
+            "stock": 12
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "299",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "299",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000010",
+        "productName": "Breeze Summer Dress",
+        "image": null,
+        "material": "Organic Cotton and Hemp",
+        "origin": "Vietnam",
+        "brandID": "BR000001",
+        "certification": "GOTS",
+        "carbonFootprint": 2.72,
+        "recycled_ratio": 4,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD010",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "109",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "109",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000016",
+        "productName": "Cotton Shirt",
+        "image": null,
+        "material": "Denim",
+        "origin": "Indonesia",
+        "brandID": "BR000003",
+        "certification": "GRS",
+        "carbonFootprint": 15.13,
+        "recycled_ratio": 91,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD016",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "115",
+            "stock": 115
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "115",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "115",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "119",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "119",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000020",
+        "productName": "Organic Tee",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "China",
+        "brandID": "BR000001",
+        "certification": "GRS",
+        "carbonFootprint": 5.9,
+        "recycled_ratio": 3,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD020",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Red",
+            "price": "21",
+            "stock": 33
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "21",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Red",
+            "price": "21",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000029",
+        "productName": "Sweatshirt",
+        "image": null,
+        "material": "Organic Cotton Fleece",
+        "origin": "Indonesia",
+        "brandID": "BR000002",
+        "certification": "Fair Trade",
+        "carbonFootprint": 6.26,
+        "recycled_ratio": 27,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD029",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Pink",
+            "price": "21",
+            "stock": 137
+          },
+          {
+            "size": "M",
+            "color": "Pink",
+            "price": "21",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Pink",
+            "price": "21",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000030",
+        "productName": "Jogger Pants",
+        "image": null,
+        "material": "Organic Cotton French Terry",
+        "origin": "Indonesia",
+        "brandID": "BR000008",
+        "certification": "GRS",
+        "carbonFootprint": 13.52,
+        "recycled_ratio": 28,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD030",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Red",
+            "price": "146",
+            "stock": 299
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Yellow",
+            "price": "150",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Red",
+            "price": "155",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000032",
+        "productName": "Comfort Hoodie",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "Indonesia",
+        "brandID": "BR000007",
+        "certification": "Fair Trade",
+        "carbonFootprint": 12.96,
+        "recycled_ratio": 74,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD032",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Red",
+            "price": "129",
+            "stock": 21
+          },
+          {
+            "size": "S",
+            "color": "White",
+            "price": "129",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "129",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000033",
+        "productName": "Wide-Leg Trousers",
+        "image": null,
+        "material": "Organic Cotton Twill",
+        "origin": "Vietnam",
+        "brandID": "BR000008",
+        "certification": "Bluesign",
+        "carbonFootprint": 10.55,
+        "recycled_ratio": 74,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD033",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Red",
+            "price": "69",
+            "stock": 146
+          },
+          {
+            "size": "S",
+            "color": "White",
+            "price": "69",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "69",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "72",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Red",
+            "price": "75",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000036",
+        "productName": "Classic Cardigan",
+        "image": null,
+        "material": "Organic Cotton Knit",
+        "origin": "Vietnam",
+        "brandID": "BR000003",
+        "certification": "Fair Trade",
+        "carbonFootprint": 14.24,
+        "recycled_ratio": 14,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD036",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "45",
+            "stock": 69
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "45",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "45",
+            "stock": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CateID": "C3",
+    "CateName": "Low Carbon",
+    "products": [
+      {
+        "productID": "PR000003",
+        "productName": "Everyday Tee",
+        "image": null,
+        "material": "Low-Impact Organic Cotton",
+        "origin": "Thailand",
+        "brandID": "BR000004",
+        "certification": "GOTS",
+        "carbonFootprint": 4.81,
+        "recycled_ratio": 94,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD003",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "60.7",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "60.7",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "60.7",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000007",
+        "productName": "Classic Sweater",
+        "image": null,
+        "material": "Hemp Fabric",
+        "origin": "Vietnam",
+        "brandID": "BR000001",
+        "certification": "GRS",
+        "carbonFootprint": 15.95,
+        "recycled_ratio": 26,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD007",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Red",
+            "price": "299",
+            "stock": 12
+          },
+          {
+            "size": "M",
+            "color": "Red",
+            "price": "299",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Red",
+            "price": "299",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000008",
+        "productName": "Travel Hoodie",
+        "image": null,
+        "material": "Tencel Modal",
+        "origin": "China",
+        "brandID": "BR000005",
+        "certification": "GRS",
+        "carbonFootprint": 9.24,
+        "recycled_ratio": 74,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD008",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "21",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "21",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "21",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "White",
+            "price": "21",
+            "stock": 0
+          },
+          {
+            "size": "XXL",
+            "color": "White",
+            "price": "25",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000011",
+        "productName": "Running Shorts",
+        "image": null,
+        "material": "Recycled Polyester",
+        "origin": "Indonesia",
+        "brandID": "BR000001",
+        "certification": "Fair Trade",
+        "carbonFootprint": 5.32,
+        "recycled_ratio": 100,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD011",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "White",
+            "price": "129",
+            "stock": 12
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "129",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "129",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000017",
+        "productName": "Vintage Denim Jacket",
+        "image": null,
+        "material": "Organic Denim",
+        "origin": "Vietnam",
+        "brandID": "BR000007",
+        "certification": "Bluesign",
+        "carbonFootprint": 12.68,
+        "recycled_ratio": 42,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD017",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "65.6",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "65.6",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "White",
+            "price": "65.6",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000018",
+        "productName": "Cotton Shirt",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "China",
+        "brandID": "BR000005",
+        "certification": "GRS",
+        "carbonFootprint": 9.28,
+        "recycled_ratio": 97,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD018",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "199",
+            "stock": 12
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "199",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "199",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "199",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000021",
+        "productName": "Utility Shirt",
+        "image": null,
+        "material": "Hemp Fabric",
+        "origin": "Indonesia",
+        "brandID": "BR000004",
+        "certification": "GRS",
+        "carbonFootprint": 4.95,
+        "recycled_ratio": 5,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD021",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "146",
+            "stock": 45
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "156",
+            "stock": 0
+          },
+          {
+            "size": "XXL",
+            "color": "Black",
+            "price": "156",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000024",
+        "productName": "Casual Blazer",
+        "image": null,
+        "material": "Hemp",
+        "origin": "Indonesia",
+        "brandID": "BR000006",
+        "certification": "OEKO-TEX",
+        "carbonFootprint": 11.82,
+        "recycled_ratio": 66,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD024",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "69",
+            "stock": 12
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "69",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "69",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000025",
+        "productName": "Windbreaker",
+        "image": null,
+        "material": "Recycled Nylon",
+        "origin": "Vietnam",
+        "brandID": "BR000002",
+        "certification": "GOTS",
+        "carbonFootprint": 19.64,
+        "recycled_ratio": 73,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD025",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "57",
+            "stock": 67
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Blue",
+            "price": "57",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000026",
+        "productName": "Chino Pants",
+        "image": null,
+        "material": "Hemp",
+        "origin": "Vietnam",
+        "brandID": "BR000009",
+        "certification": "Fair Trade",
+        "carbonFootprint": 10.93,
+        "recycled_ratio": 33,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD026",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "112",
+            "stock": 33
+          },
+          {
+            "size": "S",
+            "color": "White",
+            "price": "112",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "112",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000034",
+        "productName": "Polo Shirt",
+        "image": null,
+        "material": "Bamboo Fiber",
+        "origin": "Thailand",
+        "brandID": "BR000006",
+        "certification": "GOTS",
+        "carbonFootprint": 17.15,
+        "recycled_ratio": 81,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD034",
+        "description": null,
+        "variants": [
+          {
+            "size": "Freesize",
+            "color": "Blue",
+            "price": "57",
+            "stock": 109
+          },
+          {
+            "size": "Freesize",
+            "color": "Black",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "White",
+            "price": "57",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000037",
+        "productName": "Cotton T-Shirt",
+        "image": null,
+        "material": "Low-Impact Organic Cotton",
+        "origin": "Vietnam",
+        "brandID": "BR000010",
+        "certification": "OEKO-TEX",
+        "carbonFootprint": 2.73,
+        "recycled_ratio": 33,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD037",
+        "description": null,
+        "variants": [
+          {
+            "size": "Freesize",
+            "color": "Blue",
+            "price": "57",
+            "stock": 57
+          },
+          {
+            "size": "Freesize",
+            "color": "Black",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "White",
+            "price": "57",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Yellow",
+            "price": "62",
+            "stock": 0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "CateID": "C4",
+    "CateName": "Circular",
+    "products": [
+      {
+        "productID": "PR000004",
+        "productName": "Bomber",
+        "image": null,
+        "material": "Recycled Polyester Mono-Material",
+        "origin": "Thailand",
+        "brandID": "BR000002",
+        "certification": "GRS",
+        "carbonFootprint": 8.89,
+        "recycled_ratio": 47,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD004",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "115",
+            "stock": 115
+          },
+          {
+            "size": "S",
+            "color": "Pink",
+            "price": "115",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "115",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "Pink",
+            "price": "115",
+            "stock": 0
+          },
+          {
+            "size": "M",
+            "color": "White",
+            "price": "115",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000012",
+        "productName": "Cotton Shirt",
+        "image": null,
+        "material": "Organic Cotton",
+        "origin": "Indonesia",
+        "brandID": "BR000006",
+        "certification": "Fair Trade",
+        "carbonFootprint": 14.03,
+        "recycled_ratio": 90,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD012",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Blue",
+            "price": "69",
+            "stock": 115
+          },
+          {
+            "size": "M",
+            "color": "Blue",
+            "price": "69",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Blue",
+            "price": "69",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Blue",
+            "price": "69",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000014",
+        "productName": "Basic Tee",
+        "image": null,
+        "material": "Organic Cotton Circular Design",
+        "origin": "Thailand",
+        "brandID": "BR000003",
+        "certification": "Bluesign",
+        "carbonFootprint": 19.7,
+        "recycled_ratio": 32,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD014",
+        "description": null,
+        "variants": [
+          {
+            "size": "Freesize",
+            "color": "Blue",
+            "price": "12",
+            "stock": 12
+          },
+          {
+            "size": "Freesize",
+            "color": "White",
+            "price": "12",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Pink",
+            "price": "12",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Yellow",
+            "price": "12",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Green",
+            "price": "15",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000022",
+        "productName": "Utility Vest",
+        "image": null,
+        "material": "Recycled Nylon",
+        "origin": "Vietnam",
+        "brandID": "BR000004",
+        "certification": "Fair Trade",
+        "carbonFootprint": 3.83,
+        "recycled_ratio": 87,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD022",
+        "description": null,
+        "variants": [
+          {
+            "size": "Freesize",
+            "color": "Black",
+            "price": "109",
+            "stock": 115
+          },
+          {
+            "size": "Freesize",
+            "color": "White",
+            "price": "109",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Green",
+            "price": "109",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000027",
+        "productName": "Overshirt",
+        "image": null,
+        "material": "Hemp",
+        "origin": "Thailand",
+        "brandID": "BR000005",
+        "certification": "Fair Trade",
+        "carbonFootprint": 6.74,
+        "recycled_ratio": 6,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD027",
+        "description": null,
+        "variants": [
+          {
+            "size": "Freesize",
+            "color": "Black",
+            "price": "45",
+            "stock": 45
+          },
+          {
+            "size": "Freesize",
+            "color": "White",
+            "price": "45",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Green",
+            "price": "45",
+            "stock": 0
+          },
+          {
+            "size": "Freesize",
+            "color": "Blue",
+            "price": "48",
+            "stock": 0
+          }
+        ]
+      },
+      {
+        "productID": "PR000038",
+        "productName": "Everyday T-Shirt",
+        "image": null,
+        "material": "Organic Cotton (Mono-Material)",
+        "origin": "Vietnam",
+        "brandID": "BR000001",
+        "certification": "OEKO-TEX",
+        "carbonFootprint": 13.33,
+        "recycled_ratio": 94,
+        "blockchainQR": "https://blockchain.ecocycle.com/PRD038",
+        "description": null,
+        "variants": [
+          {
+            "size": "S",
+            "color": "Black",
+            "price": "146",
+            "stock": 146
+          },
+          {
+            "size": "M",
+            "color": "Black",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "L",
+            "color": "Black",
+            "price": "146",
+            "stock": 0
+          },
+          {
+            "size": "XL",
+            "color": "Black",
+            "price": "156",
+            "stock": 0
+          },
+          {
+            "size": "XXL",
+            "color": "Black",
+            "price": "156",
+            "stock": 0
+          }
+        ]
+      }
+    ]
+  }
+]

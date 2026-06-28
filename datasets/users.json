@@ -1,0 +1,126 @@
+[
+  {
+    "customers": [
+      {
+        "customerID": "CM000001",
+        "fullName": "Nguyễn Văn Lợi",
+        "userName": "nguyenvanloi",
+        "email": "nguyenvanloi@gmail.com",
+        "phoneNumber": "0913065227",
+        "passwords": "123456",
+        "join_date": "2026-06-13",
+        "address": "123 Đường Xanh, Quận 1, TP.HCM",
+        "bank_name": "BIDV",
+        "bank_account": "103694371518",
+        "eco_point": 111,
+        "tier": "Gold Member"
+      },
+      {
+        "customerID": "CM000002",
+        "fullName": "Dương Bảo Bảo",
+        "userName": "duongbao",
+        "email": "duongbaobao@gmail.com",
+        "phoneNumber": "0967138638",
+        "passwords": "123456",
+        "join_date": "2026-06-14",
+        "address": "145 Đường Nguyễn Khuyến, Quận 2, TP.HCM",
+        "bank_name": "BIDV",
+        "bank_account": "101694371518",
+        "eco_point": 100,
+        "tier": "Bronze Member"
+      },
+      {
+        "customerID": "CM000003",
+        "fullName": "Phan Hoàng Anh Thư",
+        "userName": "anhthu1181",
+        "email": "anhthu1181@gmail.com",
+        "phoneNumber": "0653173165",
+        "passwords": "123456",
+        "join_date": "2026-06-27",
+        "address": "",
+        "bank_name": "",
+        "bank_account": "",
+        "eco_point": 0,
+        "tier": "Bronze Member"
+      },
+      {
+        "customerID": "CM000004",
+        "fullName": "Diệp Túy Kha",
+        "userName": "dieptuykha",
+        "email": "dieptuykha@gmai.com",
+        "phoneNumber": "0912873138",
+        "passwords": "123456",
+        "join_date": "2026-06-28",
+        "address": "",
+        "bank_name": "",
+        "bank_account": "",
+        "eco_point": 0,
+        "tier": "Bronze Member"
+      }
+    ]
+  },
+  {
+    "brands": [
+      {
+        "brandID": "BR000001",
+        "brandName": "EcoCycle",
+        "userName": "ecocycle",
+        "email": "ecocycle@gmail.com",
+        "phoneNumber": "0928107387",
+        "passwords": "123456",
+        "join_date": "2026-06-26",
+        "address": "123 Đường Xanh, Quận 1, TP.HCM",
+        "bank_name": "BIDV",
+        "bank_account": "08368083103",
+        "tax_code": "81686381",
+        "legal_rep": "Nguyễn Thị Hoa"
+      },
+      {
+        "brandID": "BR000002",
+        "brandName": "GreenEco",
+        "userName": "greeneco",
+        "email": "greeneco@gmail.com",
+        "phoneNumber": "0982267256",
+        "passwords": "123456",
+        "join_date": "2026-06-27",
+        "address": "456 Đường Verde, Quận 2, TP.HCM",
+        "bank_name": "Vietcombank",
+        "bank_account": "137813684625",
+        "tax_code": "1317846824",
+        "legal_rep": "Trần Văn Minh"
+      }
+    ]
+  },
+  {
+    "recyclers": [
+      {
+        "recyclerID": "RC000001",
+        "recyclerName": "Recycler A",
+        "userName": "recyclerA",
+        "email": "recyclerA@gmail.com",
+        "phoneNumber": "0983742648",
+        "passwords": "123456",
+        "join_date": "2026-06-26",
+        "address": "233 Nguyễn Văn Cừ, Quận 3, TP.HCM",
+        "bank_name": "Vietcombank",
+        "bank_account": "03292768287",
+        "tax_code": "871681638",
+        "legal_rep": "Trần Văn Bình"
+      },
+      {
+        "recyclerID": "RC000002",
+        "recyclerName": "Recycler B",
+        "userName": "recyclerB",
+        "email": "recyclerB@gmail.com",
+        "phoneNumber": "0921834677",
+        "passwords": "123456",
+        "join_date": "2026-06-27",
+        "address": "456 Đường Verde, Quận 2, TP.HCM",
+        "bank_name": "Vietcombank",
+        "bank_account": "137813684625",
+        "tax_code": "3738143554",
+        "legal_rep": "Lên Quốc Hùng"
+      }
+    ]
+  }
+]

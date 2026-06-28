@@ -1,0 +1,250 @@
+[
+    {
+        "customerID":  "CM000001",
+        "orders": 
+        [
+            {
+              "orderID": "OD000001",
+              "invoiceNumber": "INV2024001", 
+              "date": "2026-01-20", 
+              "ecoPointsEarned": 100,
+              "shippingAddress": "123 Đường Xanh, Quận 1, TP.HCM",
+              "paymentMethod": "Blockchain Wallet", 
+              "products": 
+              [
+                  { 
+                    "productID": "PR000023", 
+                    "productName":  "Hoodie",
+                    "variants": 
+                    [
+                      {
+                        "size": "M",
+                        "color": "Black",
+                        "quantity": "1",
+                        "price": 89
+                      }, 
+                      {
+                        "size": "L",
+                        "color": "Blue",
+                        "quantity": "2",
+                        "price": 89
+                      }
+                    ]
+                  },
+                  {
+                    "productID":  "PR000028",
+                    "productName":  "Cargo Pants",
+                    "variants": 
+                    [
+                      {
+                        "size": "S",
+                        "color": "Black",
+                        "quantity": "1",
+                        "price": 299
+                      }
+                    ]
+                  }
+              ],
+              "subtotal": 566, 
+              "shippingFee": 15, 
+              "tax": 0, 
+              "total": 581,
+              "status": "Delivered"
+            },
+            {
+              "orderID": "OD000002",
+              "invoiceNumber": "INV2024002",
+              "date": "2026-02-05",
+              "ecoPointsEarned": 80,
+              "shippingAddress": "123 Đường Xanh, Quận 1, TP.HCM",
+              "paymentMethod": "Credit Card",
+              "products": [
+                {
+                  "productID": "PR000039",
+                  "productName": "Polo",
+                  "variants": [
+                    {
+                      "size": "S",
+                      "color": "Blue",
+                      "quantity": "2",
+                      "price": 109
+                    }
+                  ]
+                }
+              ],
+              "subtotal": 218,
+              "shippingFee": 15,
+              "tax": 0,
+              "total": 233,
+              "status": "Delivered"
+            },
+            {
+              "orderID": "OD000003",
+              "invoiceNumber": "INV2024003",
+              "date": "2026-03-10",
+              "ecoPointsEarned": 120,
+              "shippingAddress": "123 Đường Xanh, Quận 1, TP.HCM",
+              "paymentMethod": "Blockchain Wallet",
+              "products": [
+                {
+                  "productID": "PR000040",
+                  "productName": "Linen Shirt",
+                  "variants": [
+                    {
+                      "size": "S",
+                      "color": "Blue",
+                      "quantity": "1",
+                      "price": 129
+                    }
+                  ]
+                },
+                {
+                  "productID": "PR000034",
+                  "productName": "Polo Shirt",
+                  "variants": [
+                    {
+                      "size": "Freesize",
+                      "color": "Blue",
+                      "quantity": "2",
+                      "price": 57
+                    }
+                  ]
+                }
+              ],
+              "subtotal": 243,
+              "shippingFee": 15,
+              "tax": 0,
+              "total": 258,
+              "status": "Delivered"
+            }
+        ]
+    },
+    {
+        "customerID": "CM000002",
+        "orders": [
+          {
+            "orderID": "OD000004",
+            "invoiceNumber": "INV2024004",
+            "date": "2026-04-18",
+            "ecoPointsEarned": 150,
+            "shippingAddress": "145 Đường Nguyễn Khuyến, Quận 2, TP.HCM",
+            "paymentMethod": "Bank Transfer",
+            "products": [
+              {
+                "productID": "PR000031",
+                "productName": "Sportswear",
+                "variants": [
+                  {
+                    "size": "S",
+                    "color": "Black",
+                    "quantity": "2",
+                    "price": 109
+                  }
+                ]
+              },
+              {
+                "productID": "PR000029",
+                "productName": "Sweatshirt",
+                "variants": [
+                  {
+                    "size": "S",
+                    "color": "Pink",
+                    "quantity": "3",
+                    "price": 21
+                  }
+                ]
+              }
+            ],
+            "subtotal": 281,
+            "shippingFee": 15,
+            "tax": 0,
+            "total": 296,
+            "status": "Delivered"
+          },
+          {
+            "orderID": "OD000005",
+            "invoiceNumber": "INV2024005",
+            "date": "2026-05-02",
+            "ecoPointsEarned": 60,
+            "shippingAddress": "145 Đường Nguyễn Khuyến, Quận 2, TP.HCM",
+            "paymentMethod": "Cash On Delivery",
+            "products": [
+              {
+                "productID": "PR000020",
+                "productName": "Organic Tee",
+                "variants": [
+                  {
+                    "size": "S",
+                    "color": "Red",
+                    "quantity": "2",
+                    "price": 21
+                  }
+                ]
+              }
+            ],
+            "subtotal": 42,
+            "shippingFee": 15,
+            "tax": 0,
+            "total": 57,
+            "status": "Shipping"
+          }
+        ]
+    },
+    {
+        "customerID": "CM000003",
+        "orders": [
+          {
+            "orderID": "OD000006",
+            "invoiceNumber": "INV2024006",
+            "date": "2026-06-15",
+            "ecoPointsEarned": 200,
+            "shippingAddress": "TP.HCM",
+            "paymentMethod": "Blockchain Wallet",
+            "products": [
+              {
+                "productID": "PR000025",
+                "productName": "Windbreaker",
+                "variants": [
+                  {
+                    "size": "S",
+                    "color": "Blue",
+                    "quantity": "1",
+                    "price": 57
+                  }
+                ]
+              },
+              {
+                "productID": "PR000023",
+                "productName": "Hoodie",
+                "variants": [
+                  {
+                    "size": "XL",
+                    "color": "Yellow",
+                    "quantity": "2",
+                    "price": 139
+                  }
+                ]
+              },
+              {
+                "productID": "PR000038",
+                "productName": "Everyday T-Shirt",
+                "variants": [
+                  {
+                    "size": "S",
+                    "color": "Black",
+                    "quantity": "1",
+                    "price": 146
+                  }
+                ]
+              }
+            ],
+            "subtotal": 481,
+            "shippingFee": 15,
+            "tax": 0,
+            "total": 496,
+            "status": "Pending"
+          }
+        ]
+    }
+]
+      

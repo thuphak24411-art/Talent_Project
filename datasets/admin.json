@@ -1,0 +1,12 @@
+{
+    "admins": [
+      {
+        "adminID": "AD001",
+        "fullName": "Nguyễn Văn Sơn",
+        "userName": "nguyenvanson",
+        "email": "nguyenvanson@gmail.com",
+        "phoneNumber": "0913088227",
+        "passwords": "123456"
+      }
+    ]
+}

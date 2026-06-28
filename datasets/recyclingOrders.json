@@ -1,0 +1,74 @@
+[
+  {
+    "recyclerID": "RC000001",
+    "recycling_orders": [
+      {
+        "orderID": "RD000001",
+        "orderDate": "2026-06-20",
+        "status": "Completed",
+        "products": [
+          {
+            "productID": "PR000023",
+            "productName": "Hoodie",
+            "quantity": 1
+          },
+          {
+            "productID": "PR000028",
+            "productName": "Cargo Pants",
+            "quantity": 2
+          }
+        ]
+      },
+      {
+        "orderID": "RD000002",
+        "orderDate": "2026-06-25",
+        "status": "Processing",
+        "products": [
+          {
+            "productID": "PR000031",
+            "productName": "Sportswear",
+            "quantity": 2
+          }
+        ]
+      }
+    ]
+  }, 
+  {
+    "recyclerID": "RC000002",
+    "recycling_orders": [
+      {
+        "orderID": "RD000001",
+        "orderDate": "2026-06-01",
+        "status": "Processing",
+        "products": [
+          {
+            "productID": "PR000023",
+            "productName": "Hoodie",
+            "quantity": 15
+          },
+          {
+            "productID": "PR000028",
+            "productName": "Cargo Pants",
+            "quantity": 20
+          }, {
+            "productID": "PR000022",
+            "productName": "Utility Vest",
+            "quantity": 3
+          }
+        ]
+      },
+      {
+        "orderID": "RD000002",
+        "orderDate": "2026-06-25",
+        "status": "Processing",
+        "products": [
+          {
+            "productID": "PR000031",
+            "productName": "Sportswear",
+            "quantity": 12
+          }
+        ]
+      }
+    ]
+  }
+]
